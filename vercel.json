@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/call/start", "destination": "/api/call-start" },
+    { "source": "/api/call/respond", "destination": "/api/call-respond" },
+    { "source": "/api/call/poll", "destination": "/api/call-poll" },
+    { "source": "/api/call/end", "destination": "/api/call-end" }
+  ]
+}
