@@ -1,9 +1,12 @@
 {
-  "name": "awiro-vc-signaling",
+  "name": "ms-voice-server",
   "version": "1.0.0",
-  "description": "Awiro VC - signaling API (kto dzwoni do kogo) na Vercel, łączy ms (PHP) z VoiceLink (Node audio relay)",
-  "private": true,
-  "engines": {
-    "node": ">=18.0.0"
+  "description": "Jednoplikowy serwer signalingowy WebRTC (voice chat) dla ms (Awiro) - DM i grupy.",
+  "main": "voice-server.js",
+  "scripts": {
+    "start": "node voice-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
   }
 }
